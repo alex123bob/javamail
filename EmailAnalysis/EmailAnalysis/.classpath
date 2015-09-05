@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="SWT_CONTAINER/JFACE/PLATFORM"/>
+	<classpathentry kind="lib" path="D:/github/tools/提取邮件需要的类库和包/Apache common email类库/commons-email-1.3.3-bin/commons-email-1.3.3/commons-email-1.3.3.jar"/>
+	<classpathentry kind="lib" path="D:/github/tools/提取邮件需要的类库和包/javamail依赖包/jaf-1_1_1/jaf-1.1.1/activation.jar"/>
+	<classpathentry kind="lib" path="D:/github/tools/mysqlconnectorjava/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-cypher-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-algo-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-matching-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-jmx-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-kernel-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-lucene-index-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-management-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-shell-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-udc-1.7.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/scala-library-2.9.0-1.jar"/>
+	<classpathentry kind="lib" path="E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/server-api-1.7.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

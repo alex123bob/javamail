@@ -1,0 +1,1060 @@
+2015-08-20 14:46:44.897+0000: Creating new db @ E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore
+2015-08-20 14:46:45.091+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log.1] clean empty log, version=0, lastTxId=1
+2015-08-20 14:46:45.103+0000: TM new log: tm_tx_log.1
+2015-08-20 14:46:45.135+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log.1] clean empty log, version=0, lastTxId=1
+2015-08-20 14:46:45.140+0000: --- STARTUP diagnostics START ---
+2015-08-20 14:46:45.141+0000: Neo4j Kernel properties:
+    store_dir=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base
+    remote_logging_host=127.0.0.1
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    neostore.relationshipstore.db.mapped_memory=65M
+    remote_shell_name=shell
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    neostore.nodestore.db.mapped_memory=14M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.strings.mapped_memory=45M
+    neostore.propertystore.db.arrays.mapped_memory=52M
+    neo_store=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=53M
+    gcr_cache_min_log_interval=60s
+    relationship_auto_indexing=false
+    relationship_grab_size=100
+    string_block_size=120
+    remote_shell_read_only=false
+    lucene_writer_cache_size=2147483647
+    grab_file_lock=true
+    node_cache_array_fraction=1.0
+    remote_logging_enabled=false
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    neo4j.ext.udc.enabled=true
+    relationship_cache_array_fraction=1.0
+2015-08-20 14:46:45.145+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+2015-08-20 14:46:45.146+0000: System memory information:
+    Total Physical memory: 3.84 GB
+    Free Physical memory: 877.70 MB
+    Committed virtual memory: 546.80 MB
+    Total swap space: 5.84 GB
+    Free swap space: 1.08 GB
+2015-08-20 14:46:45.150+0000: JVM memory information:
+    Free  memory: 55.81 MB
+    Total memory: 372.00 MB
+    Max   memory: 875.00 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.63 MB, used=2.50 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=19.50 MB, used=13.54 MB, max=237.50 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=45.00 MB, used=19.32 MB, max=45.00 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=307.50 MB, used=283.32 MB, max=656.00 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=29.50 MB, used=18.45 MB, max=82.00 MB, threshold=0.00 B
+2015-08-20 14:46:45.155+0000: Operating system information:
+    Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+    Process id: 3296@ACER-PC
+    Byte order: LITTLE_ENDIAN
+2015-08-20 14:46:45.157+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 24.65-b04
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:5722, -Djava.library.path=E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828, -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher, -Dvce.launcher.class=EmailAnalysis, -Dfile.encoding=GBK]
+2015-08-20 14:46:45.158+0000: Java classpath:
+     [loader.1] file:/E:/jdk64/jre/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/pop3-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\resources.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\javamail依赖包\jaf-1_1_1\jaf-1.1.1\activation.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/186/1/.cp/vm/vcelauncher.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-udc-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.core.commands_3.4.0.I20080509-2000.jar
+     [bootstrap] E:\jdk64\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-lucene-index-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-algo-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jfr.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunec.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/scala-library-2.9.0-1.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/javamail%e4%be%9d%e8%b5%96%e5%8c%85/jaf-1_1_1/jaf-1.1.1/activation.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-kernel-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.jface_3.4.2.M20090107-0800.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/smtp-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/localedata.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/imap-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dnsns.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.4.1.v3452b.jar
+     [bootstrap] E:\jdk64\jre\lib\charsets.jar
+     [bootstrap] E:\jdk64\jre\classes
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-management-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dsn-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\jsse.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/Apache%20common%20email%e7%b1%bb%e5%ba%93/commons-email-1.3.3-bin/commons-email-1.3.3/commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail-api-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\rt.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-shell-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-matching-1.7.jar
+     [classpath + loader.0] file:/D:/github/tools/mysqlconnectorjava/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/server-api-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jce.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-cypher-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/EmailAnalysis/bin/
+     [loader.1] file:/E:/jdk64/jre/lib/ext/mailapi-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/access-bridge-64.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/gimap-1.5.2.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\Apache common email类库\commons-email-1.3.3-bin\commons-email-1.3.3\commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-jmx-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunmscapi.jar
+2015-08-20 14:46:45.164+0000: Library path:
+    E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828
+2015-08-20 14:46:45.164+0000: System.properties:
+    sun.boot.library.path = E:\jdk64\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = CN
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 1
+    user.dir = E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis
+    user.variant = 
+    sun.jnu.encoding = GBK
+    sun.awt.enableExtraMouseButtons = true
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = D:\Users\ACER
+    user.timezone = Asia/Shanghai
+    file.encoding = GBK
+    user.name = ACER
+    sun.java.command = org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+    sun.arch.data.model = 64
+    user.language = zh
+    awt.toolkit = sun.awt.windows.WToolkit
+    vce.launcher.class = EmailAnalysis
+    vce.launchers = org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = amd64
+2015-08-20 14:46:45.165+0000: --- STARTUP diagnostics END ---
+2015-08-20 14:46:45.293+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2015-08-20 14:46:45.294+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2015-08-20 14:46:45.449+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2015-08-20 14:46:45.456+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2015-08-20 14:46:45.456+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1440082004899, id:489205503703704827, store version: 13561656364791302]
+2015-08-20 14:46:45.456+0000: Kernel version: Neo4j - Graph Database Kernel 1.7
+2015-08-20 14:46:45.456+0000: Neo4j component versions:
+2015-08-20 14:46:45.457+0000:   Neo4j - Graph Database Kernel 1.7
+2015-08-20 14:46:45.457+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2015-08-20 14:46:45.460+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2015-08-20 14:46:45.461+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2015-08-20 14:46:45.461+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2015-08-20 14:46:45.461+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2015-08-20 14:46:45.461+0000: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2015-08-20 14:46:45.463+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2015-08-20 14:46:45.463+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-08-20 14:46:45.463+0000: Storage files:
+    active_tx_log: 11.00 B
+    index:
+      lucene-store.db: 40.00 B
+      lucene.log.1: 16.00 B
+      lucene.log.active: 4.00 B
+    - Total: 60.00 B
+    lock: 0.00 B
+    messages.log: 12.01 kB
+    neostore: 54.00 B
+    neostore.id: 9.00 B
+    neostore.nodestore.db: 9.00 B
+    neostore.nodestore.db.id: 9.00 B
+    neostore.propertystore.db: 0.00 B
+    neostore.propertystore.db.arrays: 128.00 B
+    neostore.propertystore.db.arrays.id: 9.00 B
+    neostore.propertystore.db.id: 9.00 B
+    neostore.propertystore.db.index: 0.00 B
+    neostore.propertystore.db.index.id: 9.00 B
+    neostore.propertystore.db.index.keys: 38.00 B
+    neostore.propertystore.db.index.keys.id: 9.00 B
+    neostore.propertystore.db.strings: 128.00 B
+    neostore.propertystore.db.strings.id: 9.00 B
+    neostore.relationshipstore.db: 0.00 B
+    neostore.relationshipstore.db.id: 9.00 B
+    neostore.relationshiptypestore.db: 0.00 B
+    neostore.relationshiptypestore.db.id: 9.00 B
+    neostore.relationshiptypestore.db.names: 38.00 B
+    neostore.relationshiptypestore.db.names.id: 9.00 B
+    nioneo_logical.log.1: 16.00 B
+    nioneo_logical.log.active: 4.00 B
+    tm_tx_log.1: 0.00 B
+2015-08-20 14:46:45.471+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-08-20 14:46:45.474+0000: Started - database is now available
+2015-08-20 14:46:45.475+0000: GC Monitor started. 
+2015-08-20 14:46:45.700+0000: Stopping - database is now unavailable
+2015-08-20 14:46:45.703+0000: TM shutting down
+2015-08-20 14:46:45.706+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log
+2015-08-20 14:46:45.729+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+2015-08-20 14:46:45.769+0000: NeoStore closed
+2015-08-20 14:46:45.769+0000: --- SHUTDOWN diagnostics START ---
+2015-08-20 14:46:45.769+0000: --- SHUTDOWN diagnostics END ---
+2015-08-20 14:57:11.030+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics START ---
+2015-08-20 14:57:11.034+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j Kernel properties:
+2015-08-20 14:57:11.036+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.mapped_memory=53M
+2015-08-20 14:57:11.036+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.nodestore.db.mapped_memory=14M
+2015-08-20 14:57:11.036+0000 INFO  [o.n.k.i.DiagnosticsManager]: allow_store_upgrade=true
+2015-08-20 14:57:11.036+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.relationshipstore.db.mapped_memory=65M
+2015-08-20 14:57:11.037+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.strings.mapped_memory=45M
+2015-08-20 14:57:11.037+0000 INFO  [o.n.k.i.DiagnosticsManager]: store_dir=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base
+2015-08-20 14:57:11.037+0000 INFO  [o.n.k.i.DiagnosticsManager]: neostore.propertystore.db.arrays.mapped_memory=52M
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: Diagnostics providers:
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.configuration.Config
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.neo4j.kernel.info.DiagnosticsManager
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_MEMORY
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_MEMORY
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: OPERATING_SYSTEM
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: JAVA_VIRTUAL_MACHINE
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: CLASSPATH
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: LIBRARY_PATH
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: SYSTEM_PROPERTIES
+2015-08-20 14:57:11.038+0000 INFO  [o.n.k.i.DiagnosticsManager]: NETWORK
+2015-08-20 14:57:11.039+0000 INFO  [o.n.k.i.DiagnosticsManager]: System memory information:
+2015-08-20 14:57:11.041+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total Physical memory: 3.84 GB
+2015-08-20 14:57:11.041+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free Physical memory: 741.58 MB
+2015-08-20 14:57:11.041+0000 INFO  [o.n.k.i.DiagnosticsManager]: Committed virtual memory: 215.48 MB
+2015-08-20 14:57:11.041+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total swap space: 5.84 GB
+2015-08-20 14:57:11.042+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free swap space: 613.79 MB
+2015-08-20 14:57:11.042+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM memory information:
+2015-08-20 14:57:11.042+0000 INFO  [o.n.k.i.DiagnosticsManager]: Free  memory: 22.14 MB
+2015-08-20 14:57:11.042+0000 INFO  [o.n.k.i.DiagnosticsManager]: Total memory: 73.50 MB
+2015-08-20 14:57:11.042+0000 INFO  [o.n.k.i.DiagnosticsManager]: Max   memory: 875.00 MB
+2015-08-20 14:57:11.044+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2015-08-20 14:57:11.044+0000 INFO  [o.n.k.i.DiagnosticsManager]: Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+2015-08-20 14:57:11.045+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: Code Cache (Non-heap memory): committed=2.44 MB, used=1.21 MB, max=48.00 MB, threshold=0.00 B
+2015-08-20 14:57:11.046+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Eden Space (Heap memory): committed=30.00 MB, used=25.32 MB, max=314.00 MB, threshold=?
+2015-08-20 14:57:11.046+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Survivor Space (Heap memory): committed=2.50 MB, used=2.50 MB, max=2.50 MB, threshold=?
+2015-08-20 14:57:11.047+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Old Gen (Heap memory): committed=41.00 MB, used=23.73 MB, max=656.00 MB, threshold=0.00 B
+2015-08-20 14:57:11.048+0000 INFO  [o.n.k.i.DiagnosticsManager]: Memory Pool: PS Perm Gen (Non-heap memory): committed=33.00 MB, used=32.53 MB, max=82.00 MB, threshold=0.00 B
+2015-08-20 14:57:11.048+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating system information:
+2015-08-20 14:57:11.048+0000 INFO  [o.n.k.i.DiagnosticsManager]: Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: Process id: 1056@ACER-PC
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: Byte order: LITTLE_ENDIAN
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: Local timezone: Asia/Shanghai
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: JVM information:
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Name: Java HotSpot(TM) 64-Bit Server VM
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Vendor: Oracle Corporation
+2015-08-20 14:57:11.049+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Version: 24.65-b04
+2015-08-20 14:57:11.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: JIT compiler: HotSpot 64-Bit Tiered Compilers
+2015-08-20 14:57:11.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: VM Arguments: []
+2015-08-20 14:57:11.050+0000 INFO  [o.n.k.i.DiagnosticsManager]: Java classpath:
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\jfr.jar
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\jce.jar
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\charsets.jar
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\classes
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [classpath] E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\plugins\org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar
+2015-08-20 14:57:11.051+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\resources.jar
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\sunrsasign.jar
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\jsse.jar
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]:  [bootstrap] E:\jdk64\jre\lib\rt.jar
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]: Library path:
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.052+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\Sun\Java\bin
+2015-08-20 14:57:11.053+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2015-08-20 14:57:11.053+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2015-08-20 14:57:11.053+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\jdk64\jre\bin\server
+2015-08-20 14:57:11.053+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\jdk64\jre\bin
+2015-08-20 14:57:11.053+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\jdk64\jre\lib\amd64
+2015-08-20 14:57:11.054+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.054+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\jdk64\bin
+2015-08-20 14:57:11.054+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\jdk64\jre\bin
+2015-08-20 14:57:11.054+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin
+2015-08-20 14:57:11.054+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Program Files (x86)\Skype\Phone
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: C:\Windows\System32\wbem
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\OpenCV2.3\OpenCV2.3\build\x86\vc10\bin
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: System.properties:
+2015-08-20 14:57:11.055+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.bundles.defaultStartLevel = 4
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.supports.framework.extension = true
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.ws = win32
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.desktop = windows
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.instance.area = file:/E:/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-workspace/
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.uuid = 107f71b2-4b47-0015-12c6-ebde3317731a
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.name = ACER
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.system.packages = javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.nimbus,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.spi.http,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.launcher = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\neoclipse.exe
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.launcher.name = Neoclipse
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.language = zh
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.language = zh
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.processor = x86-64
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.syspath = e:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\plugins
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.boot.library.path = E:\jdk64\jre\bin
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.system.capabilities = osgi.ee; osgi.ee="OSGi/Minimum"; version:List<Version>="1.0, 1.1, 1.2",osgi.ee; osgi.ee="JRE"; version:List<Version>="1.0, 1.1",osgi.ee; osgi.ee="JavaSE"; version:List<Version>="1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7"
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.manifest.cache = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\configuration\org.eclipse.osgi\manifests
+2015-08-20 14:57:11.056+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.os.name = Windows7
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.timezone = Asia/Shanghai
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.arch.data.model = 64
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.bundles = org.eclipse.equinox.common@2:start,org.eclipse.update.configurator@3:start,org.eclipse.core.runtime@start
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.tracefile = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-workspace\.metadata\trace.log
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.isalist = amd64
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.jnu.encoding = GBK
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.application = org.neo4j.neoclipse.application
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding.pkg = sun.io
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.vendor = Eclipse
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.separator = \
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.country = CN
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.eclipse.equinox.launcher.splash.location = e:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\configuration\org.eclipse.equinox.launcher\org.neo4j.neoclipse_1.9.1\splash.bmp
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.os = win32
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.commands = -os
+win32
+-ws
+win32
+-arch
+x86_64
+-showsplash
+-launcher
+E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\neoclipse.exe
+-name
+Neoclipse
+--launcher.library
+E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\plugins\org.eclipse.equinox.launcher.win32.win32.x86_64_1.1.200.v20120913-144807\eclipse_1503.dll
+-startup
+E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\plugins\org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar
+--launcher.overrideVmargs
+-data
+@noDefault
+-vm
+E:\jdk64\bin\..\jre\bin\server\jvm.dll
+
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.splashLocation = e:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\configuration\org.eclipse.equinox.launcher\org.neo4j.neoclipse_1.9.1\splash.bmp
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.arch = x86_64
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: path.separator = ;
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.supports.framework.fragment = true
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.variant = 
+2015-08-20 14:57:11.057+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.framework.shape = jar
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.io.unicode.encoding = UnicodeLittle
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.version = 1.7.0
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: awt.toolkit = sun.awt.windows.WToolkit
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.script = 
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.install.area = file:/E:/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-1.9.1-win32.win32.x86_64/
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.framework = file:/e:/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-1.9.1-win32.win32.x86_64/plugins/org.eclipse.osgi_3.8.2.v20130124-134944.jar
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.home = D:\Users\ACER
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.bundlestore = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\configuration\org.eclipse.osgi\bundles
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.splashPath = platform:/base/plugins/org.neo4j.neoclipse
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.nl = zh_CN
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.os.version = 6.1.0
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.startTime = 1440082613911
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.vm = E:\jdk64\bin\..\jre\bin\server\jvm.dll
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.cpu.endian = little
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: sun.os.patch.level = Service Pack 1
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: gosh.args = --nointeractive
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.product = org.neo4j.neoclipse.neoclipseProduct
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.home.location = file:/E:/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-1.9.1-win32.win32.x86_64/
+2015-08-20 14:57:11.058+0000 INFO  [o.n.k.i.DiagnosticsManager]: user.dir = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.supports.framework.requirebundle = true
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: file.encoding = GBK
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.framework.version = 3.8.2.v20130124-134944
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: eclipse.vmargs = -Djava.class.path=E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\plugins\org.eclipse.equinox.launcher_1.3.0.v20120522-1813.jar
+
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: org.osgi.framework.executionenvironment = OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6,JavaSE-1.7
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.logfile = E:\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-1.9.1-win32.win32.x86_64\neoclipse-workspace\.metadata\.log
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: osgi.configuration.area = file:/E:/neoclipse-1.9.1-win32.win32.x86_64/neoclipse-1.9.1-win32.win32.x86_64/configuration/
+2015-08-20 14:57:11.059+0000 INFO  [o.n.k.i.DiagnosticsManager]: Network information:
+2015-08-20 14:57:11.190+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Software Loopback Interface 1:
+2015-08-20 14:57:11.190+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 127.0.0.1
+2015-08-20 14:57:11.190+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 0:0:0:0:0:0:0:1
+2015-08-20 14:57:11.190+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (SSTP):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (L2TP):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPTP):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (PPPOE):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface RAS Async Adapter:
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IKEv2):
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller:
+2015-08-20 14:57:11.191+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:a493:8b87:3ebd:d3e7%11
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft 6to4 Adapter:
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth 设备(RFCOMM 协议 TDI):
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Bluetooth 设备(个人区域网):
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter:
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: 192.168.1.113
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:3d74:f5c4:f8fd:8321%15
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Teredo Tunneling Pseudo-Interface:
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:e0:0:0:0%16
+2015-08-20 14:57:11.192+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Virtual WiFi Miniport Adapter:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:54fb:7779:66c6:bdff%17
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Sangfor SSL VPN CS Support System VNIC:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:964:bfa6:fded:701b%18
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface null:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #4:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]:     address: fe80:0:0:0:0:5efe:c0a8:171%21
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #3:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft ISATAP Adapter #5:
+2015-08-20 14:57:11.193+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-WFP LightWeight Filter-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter-Virtual WiFi Filter Driver-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Sangfor SSL VPN CS Support System VNIC-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Sangfor SSL VPN CS Support System VNIC-WFP LightWeight Filter-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Sangfor SSL VPN CS Support System VNIC-360LanProtect-0000:
+2015-08-20 14:57:11.194+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Realtek PCIe GBE Family Controller-360LanProtect-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter-Native WiFi Filter Driver-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter-360LanProtect-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Atheros AR5BWB222 Wireless Network Adapter-WFP LightWeight Filter-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Virtual WiFi Miniport Adapter-Native WiFi Filter Driver-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Virtual WiFi Miniport Adapter-360LanProtect-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Virtual WiFi Miniport Adapter-QoS Packet Scheduler-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: Interface Microsoft Virtual WiFi Miniport Adapter-WFP LightWeight Filter-0000:
+2015-08-20 14:57:11.195+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- INITIALIZED diagnostics END ---
+2015-08-20 14:57:11.454+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=76b)
+2015-08-20 14:57:11.459+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=5b)
+2015-08-20 14:57:11.460+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.strings] brickCount=0 brickSize=47104b mappedMem=47185920b (storeSize=1280b)
+2015-08-20 14:57:11.462+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=152b)
+2015-08-20 14:57:11.463+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=27b)
+2015-08-20 14:57:11.466+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.arrays] brickCount=0 brickSize=54400b mappedMem=54525952b (storeSize=128b)
+2015-08-20 14:57:11.470+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db] brickCount=0 brickSize=55555b mappedMem=55574528b (storeSize=19967b)
+2015-08-20 14:57:11.473+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshipstore.db] brickCount=0 brickSize=68145b mappedMem=68157440b (storeSize=8019b)
+2015-08-20 14:57:11.476+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.nodestore.db] brickCount=0 brickSize=14679b mappedMem=14680064b (storeSize=2205b)
+2015-08-20 14:57:11.477+0000 INFO  [o.n.k.i.n.s.StoreFactory]: [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2015-08-20 14:57:11.505+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log.1] version=0, lastTxId=3 (clean)
+2015-08-20 14:57:11.517+0000 INFO  [o.n.k.i.t.TxManager]: TM opening log: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\tm_tx_log.1
+2015-08-20 14:57:11.681+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Opened logical log [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2015-08-20 14:57:11.688+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2015-08-20 14:57:11.689+0000 INFO  [o.n.k.i.DiagnosticsManager]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1440082004899, id:489205503703704827, store version: 13561656364791302]
+2015-08-20 14:57:11.689+0000 INFO  [o.n.k.i.DiagnosticsManager]: Kernel version: Neo4j - Graph Database Kernel 1.9.1
+2015-08-20 14:57:11.689+0000 INFO  [o.n.k.i.DiagnosticsManager]: Neo4j component versions:
+2015-08-20 14:57:11.690+0000 INFO  [o.n.k.i.DiagnosticsManager]:   Neo4j - Graph Database Kernel 1.9.1
+2015-08-20 14:57:11.690+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2015-08-20 14:57:11.693+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2015-08-20 14:57:11.693+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-08-20 14:57:11.693+0000 INFO  [o.n.k.i.DiagnosticsManager]: Store versions:
+2015-08-20 14:57:11.693+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NeoStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore v0.A.0
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]: Id usage:
+2015-08-20 14:57:11.694+0000 INFO  [o.n.k.i.DiagnosticsManager]:   NodeStore: used=245 high=244
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipStore: used=243 high=242
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   RelationshipTypeStore: used=1 high=0
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyStore: used=487 high=486
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   PropertyIndexStore: used=3 high=2
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   StringPropertyStore: used=10 high=9
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]:   ArrayPropertyStore: used=1 high=0
+2015-08-20 14:57:11.695+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2015-08-20 14:57:11.696+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2015-08-20 14:57:11.696+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2015-08-20 14:57:11.696+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-08-20 14:57:11.697+0000 INFO  [o.n.k.i.DiagnosticsManager]: Disk space on partition (Total / Free / Free %): 146800635904 / 123662561280 / 84
+Storage files: (filename : modification date - size)
+2015-08-20 14:57:11.698+0000 INFO  [o.n.k.i.DiagnosticsManager]:   active_tx_log: 2015-08-20T22:46:45+0800 - 11.00 B
+2015-08-20 14:57:11.698+0000 INFO  [o.n.k.i.DiagnosticsManager]:   index:
+2015-08-20 14:57:11.699+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene-store.db: 2015-08-20T22:46:45+0800 - 40.00 B
+2015-08-20 14:57:11.699+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.1: 2015-08-20T22:57:11+0800 - 16.00 B
+2015-08-20 14:57:11.700+0000 INFO  [o.n.k.i.DiagnosticsManager]:     lucene.log.active: 2015-08-20T22:57:11+0800 - 4.00 B
+2015-08-20 14:57:11.700+0000 INFO  [o.n.k.i.DiagnosticsManager]:   - Total: 2015-08-20T22:57:11+0800 - 60.00 B
+2015-08-20 14:57:11.701+0000 INFO  [o.n.k.i.DiagnosticsManager]:   lock: 2015-08-20T22:57:11+0800 - 0.00 B
+2015-08-20 14:57:11.702+0000 INFO  [o.n.k.i.DiagnosticsManager]:   messages.log: 2015-08-20T22:46:45+0800 - 47.12 kB
+2015-08-20 14:57:11.702+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore: 2015-08-20T22:57:11+0800 - 54.00 B
+2015-08-20 14:57:11.703+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.703+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db: 2015-08-20T22:57:11+0800 - 2.15 kB
+2015-08-20 14:57:11.703+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.nodestore.db.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.704+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db: 2015-08-20T22:57:11+0800 - 19.50 kB
+2015-08-20 14:57:11.704+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays: 2015-08-20T22:57:11+0800 - 128.00 B
+2015-08-20 14:57:11.705+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.arrays.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.705+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.705+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index: 2015-08-20T22:57:11+0800 - 27.00 B
+2015-08-20 14:57:11.706+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.706+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys: 2015-08-20T22:57:11+0800 - 152.00 B
+2015-08-20 14:57:11.706+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.index.keys.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.707+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings: 2015-08-20T22:57:11+0800 - 1.25 kB
+2015-08-20 14:57:11.707+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.propertystore.db.strings.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.708+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db: 2015-08-20T22:57:11+0800 - 7.83 kB
+2015-08-20 14:57:11.708+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshipstore.db.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.708+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db: 2015-08-20T22:57:11+0800 - 5.00 B
+2015-08-20 14:57:11.709+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.709+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names: 2015-08-20T22:57:11+0800 - 76.00 B
+2015-08-20 14:57:11.709+0000 INFO  [o.n.k.i.DiagnosticsManager]:   neostore.relationshiptypestore.db.names.id: 2015-08-20T22:46:45+0800 - 9.00 B
+2015-08-20 14:57:11.710+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.1: 2015-08-20T22:57:11+0800 - 16.00 B
+2015-08-20 14:57:11.710+0000 INFO  [o.n.k.i.DiagnosticsManager]:   nioneo_logical.log.active: 2015-08-20T22:57:11+0800 - 4.00 B
+2015-08-20 14:57:11.710+0000 INFO  [o.n.k.i.DiagnosticsManager]:   store_lock: 2015-08-20T22:57:11+0800 - 0.00 B
+2015-08-20 14:57:11.711+0000 INFO  [o.n.k.i.DiagnosticsManager]:   tm_tx_log.1: 2015-08-20T22:57:11+0800 - 0.00 B
+2015-08-20 14:57:11.711+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-08-20 14:57:11.714+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Started - database is now available
+2015-08-20 14:57:11.714+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor started. 
+2015-08-20 14:58:39.422+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: Stopping - database is now unavailable
+2015-08-20 14:58:39.422+0000 INFO  [o.n.k.EmbeddedGraphDatabase]: GC Monitor stopped. 
+2015-08-20 14:58:39.471+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log
+2015-08-20 14:58:39.473+0000 INFO  [o.n.k.i.t.TxManager]: TM shutting down
+2015-08-20 14:58:39.484+0000 INFO  [o.n.k.i.t.x.XaLogicalLog]: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+2015-08-20 14:58:39.489+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshiptypestore.db.names hit=0 miss=2 switches=0 ooe=0
+2015-08-20 14:58:39.493+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshiptypestore.db hit=0 miss=1 switches=0 ooe=0
+2015-08-20 14:58:39.496+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.strings hit=18 miss=0 switches=0 ooe=0
+2015-08-20 14:58:39.499+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.index.keys hit=0 miss=6 switches=0 ooe=0
+2015-08-20 14:58:39.503+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.index hit=0 miss=3 switches=0 ooe=0
+2015-08-20 14:58:39.508+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2015-08-20 14:58:39.513+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.propertystore.db hit=496 miss=0 switches=0 ooe=0
+2015-08-20 14:58:39.517+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.relationshipstore.db hit=729 miss=0 switches=0 ooe=0
+2015-08-20 14:58:39.522+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore.nodestore.db hit=734 miss=0 switches=0 ooe=0
+2015-08-20 14:58:39.526+0000 INFO  [o.n.k.i.n.s.StoreFactory]: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore hit=0 miss=16 switches=0 ooe=0
+2015-08-20 14:58:39.528+0000 INFO  [o.n.k.i.n.x.NeoStoreXaDataSource]: NeoStore closed
+2015-08-20 14:58:39.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics START ---
+2015-08-20 14:58:39.529+0000 INFO  [o.n.k.i.DiagnosticsManager]: --- STOPPING diagnostics END ---
+2015-08-20 15:15:27.633+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log.1] clean empty log, version=1, lastTxId=3
+2015-08-20 15:15:27.645+0000: TM opening log: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\tm_tx_log.1
+2015-08-20 15:15:27.674+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log.1] clean empty log, version=1, lastTxId=1
+2015-08-20 15:15:27.678+0000: --- STARTUP diagnostics START ---
+2015-08-20 15:15:27.679+0000: Neo4j Kernel properties:
+    store_dir=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base
+    remote_logging_host=127.0.0.1
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    neostore.relationshipstore.db.mapped_memory=65M
+    remote_shell_name=shell
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    neostore.nodestore.db.mapped_memory=14M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.strings.mapped_memory=45M
+    neostore.propertystore.db.arrays.mapped_memory=52M
+    neo_store=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=53M
+    gcr_cache_min_log_interval=60s
+    relationship_auto_indexing=false
+    relationship_grab_size=100
+    string_block_size=120
+    remote_shell_read_only=false
+    lucene_writer_cache_size=2147483647
+    grab_file_lock=true
+    node_cache_array_fraction=1.0
+    remote_logging_enabled=false
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    neo4j.ext.udc.enabled=true
+    relationship_cache_array_fraction=1.0
+2015-08-20 15:15:27.683+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+2015-08-20 15:15:27.684+0000: System memory information:
+    Total Physical memory: 3.84 GB
+    Free Physical memory: 1001.30 MB
+    Committed virtual memory: 519.30 MB
+    Total swap space: 5.84 GB
+    Free swap space: 950.06 MB
+2015-08-20 15:15:27.688+0000: JVM memory information:
+    Free  memory: 43.99 MB
+    Total memory: 357.50 MB
+    Max   memory: 875.00 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.56 MB, used=2.45 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=20.00 MB, used=4.33 MB, max=256.00 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=35.50 MB, used=21.95 MB, max=35.50 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=302.00 MB, used=287.24 MB, max=656.00 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=29.50 MB, used=18.46 MB, max=82.00 MB, threshold=0.00 B
+2015-08-20 15:15:27.693+0000: Operating system information:
+    Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+    Process id: 9916@ACER-PC
+    Byte order: LITTLE_ENDIAN
+2015-08-20 15:15:27.695+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 24.65-b04
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:8681, -Djava.library.path=E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828, -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher, -Dvce.launcher.class=EmailAnalysis, -Dfile.encoding=GBK]
+2015-08-20 15:15:27.696+0000: Java classpath:
+     [loader.1] file:/E:/jdk64/jre/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/pop3-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\resources.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\javamail依赖包\jaf-1_1_1\jaf-1.1.1\activation.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/186/1/.cp/vm/vcelauncher.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-udc-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.core.commands_3.4.0.I20080509-2000.jar
+     [bootstrap] E:\jdk64\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-lucene-index-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-algo-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jfr.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunec.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/scala-library-2.9.0-1.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/javamail%e4%be%9d%e8%b5%96%e5%8c%85/jaf-1_1_1/jaf-1.1.1/activation.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-kernel-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.jface_3.4.2.M20090107-0800.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/smtp-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/localedata.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/imap-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dnsns.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.4.1.v3452b.jar
+     [bootstrap] E:\jdk64\jre\lib\charsets.jar
+     [bootstrap] E:\jdk64\jre\classes
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-management-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dsn-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\jsse.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/Apache%20common%20email%e7%b1%bb%e5%ba%93/commons-email-1.3.3-bin/commons-email-1.3.3/commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail-api-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\rt.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-shell-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-matching-1.7.jar
+     [classpath + loader.0] file:/D:/github/tools/mysqlconnectorjava/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/server-api-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jce.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-cypher-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/EmailAnalysis/bin/
+     [loader.1] file:/E:/jdk64/jre/lib/ext/mailapi-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/access-bridge-64.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/gimap-1.5.2.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\Apache common email类库\commons-email-1.3.3-bin\commons-email-1.3.3\commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-jmx-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunmscapi.jar
+2015-08-20 15:15:27.701+0000: Library path:
+    E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828
+2015-08-20 15:15:27.702+0000: System.properties:
+    sun.boot.library.path = E:\jdk64\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = CN
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 1
+    user.dir = E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis
+    user.variant = 
+    sun.jnu.encoding = GBK
+    sun.awt.enableExtraMouseButtons = true
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = D:\Users\ACER
+    user.timezone = Asia/Shanghai
+    file.encoding = GBK
+    user.name = ACER
+    sun.java.command = org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+    sun.arch.data.model = 64
+    user.language = zh
+    awt.toolkit = sun.awt.windows.WToolkit
+    vce.launcher.class = EmailAnalysis
+    vce.launchers = org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = amd64
+2015-08-20 15:15:27.702+0000: --- STARTUP diagnostics END ---
+2015-08-20 15:15:27.821+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2015-08-20 15:15:27.823+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2015-08-20 15:15:27.987+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2015-08-20 15:15:27.993+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2015-08-20 15:15:27.993+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1440082004899, id:489205503703704827, store version: 13561656364791302]
+2015-08-20 15:15:27.993+0000: Kernel version: Neo4j - Graph Database Kernel 1.7
+2015-08-20 15:15:27.993+0000: Neo4j component versions:
+2015-08-20 15:15:27.993+0000:   Neo4j - Graph Database Kernel 1.7
+2015-08-20 15:15:27.994+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2015-08-20 15:15:27.996+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2015-08-20 15:15:27.996+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2015-08-20 15:15:27.997+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2015-08-20 15:15:27.997+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2015-08-20 15:15:27.997+0000: Id usage:
+    Id usage:
+      NodeStore: used=245 high=244
+      RelationshipStore: used=243 high=242
+      RelationshipTypeStore: used=1 high=0
+      PropertyStore: used=487 high=486
+      PropertyIndexStore: used=3 high=2
+      StringPropertyStore: used=10 high=9
+      ArrayPropertyStore: used=1 high=0
+2015-08-20 15:15:27.999+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2015-08-20 15:15:27.999+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-08-20 15:15:27.999+0000: Storage files:
+    active_tx_log: 11.00 B
+    index:
+      lucene-store.db: 40.00 B
+      lucene.log.1: 16.00 B
+      lucene.log.active: 4.00 B
+      lucene.log.v0: 16.00 B
+    - Total: 76.00 B
+    lock: 0.00 B
+    messages.log: 65.22 kB
+    neostore: 54.00 B
+    neostore.id: 9.00 B
+    neostore.nodestore.db: 2.15 kB
+    neostore.nodestore.db.id: 9.00 B
+    neostore.propertystore.db: 19.50 kB
+    neostore.propertystore.db.arrays: 128.00 B
+    neostore.propertystore.db.arrays.id: 9.00 B
+    neostore.propertystore.db.id: 9.00 B
+    neostore.propertystore.db.index: 27.00 B
+    neostore.propertystore.db.index.id: 9.00 B
+    neostore.propertystore.db.index.keys: 152.00 B
+    neostore.propertystore.db.index.keys.id: 9.00 B
+    neostore.propertystore.db.strings: 1.25 kB
+    neostore.propertystore.db.strings.id: 9.00 B
+    neostore.relationshipstore.db: 7.83 kB
+    neostore.relationshipstore.db.id: 9.00 B
+    neostore.relationshiptypestore.db: 5.00 B
+    neostore.relationshiptypestore.db.id: 9.00 B
+    neostore.relationshiptypestore.db.names: 76.00 B
+    neostore.relationshiptypestore.db.names.id: 9.00 B
+    nioneo_logical.log.1: 16.00 B
+    nioneo_logical.log.active: 4.00 B
+    nioneo_logical.log.v0: 16.00 B
+    store_lock: 0.00 B
+    tm_tx_log.1: 0.00 B
+2015-08-20 15:15:28.005+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-08-20 15:15:28.008+0000: Started - database is now available
+2015-08-20 15:15:28.008+0000: GC Monitor started. 
+2015-08-20 15:15:28.364+0000: Stopping - database is now unavailable
+2015-08-20 15:15:28.368+0000: TM shutting down
+2015-08-20 15:15:28.372+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log
+2015-08-20 15:15:28.384+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+2015-08-20 15:15:28.414+0000: GC Monitor stopped. 
+2015-08-20 15:15:28.416+0000: NeoStore closed
+2015-08-20 15:15:28.416+0000: --- SHUTDOWN diagnostics START ---
+2015-08-20 15:15:28.416+0000: --- SHUTDOWN diagnostics END ---
+2015-08-20 15:31:55.061+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log.1] clean empty log, version=2, lastTxId=4
+2015-08-20 15:31:55.083+0000: TM opening log: E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\tm_tx_log.1
+2015-08-20 15:31:55.144+0000: Opened [E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log.1] clean empty log, version=2, lastTxId=1
+2015-08-20 15:31:55.148+0000: --- STARTUP diagnostics START ---
+2015-08-20 15:31:55.149+0000: Neo4j Kernel properties:
+    store_dir=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base
+    remote_logging_host=127.0.0.1
+    read_only=false
+    neo4j.ext.udc.host=udc.neo4j.org
+    logical_log=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+    remote_logging_port=4560
+    gc_monitor_threshold=200ms
+    load_kernel_extensions=true
+    array_block_size=120
+    intercept_committing_transactions=false
+    node_auto_indexing=false
+    neostore.relationshipstore.db.mapped_memory=65M
+    remote_shell_name=shell
+    dump_configuration=false
+    gc_monitor_wait_time=100ms
+    cache_type=soft
+    intercept_deserialized_transactions=false
+    neostore.nodestore.db.mapped_memory=14M
+    neo4j.ext.udc.first_delay=600000
+    remote_shell_enabled=false
+    neo4j.ext.udc.reg=unreg
+    remote_shell_port=1337
+    lucene_searcher_cache_size=2147483647
+    neo4j.ext.udc.interval=86400000
+    use_memory_mapped_buffers=false
+    rebuild_idgenerators_fast=true
+    neostore.propertystore.db.index.keys.mapped_memory=1M
+    neostore.propertystore.db.strings.mapped_memory=45M
+    neostore.propertystore.db.arrays.mapped_memory=52M
+    neo_store=E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\neostore
+    neostore.propertystore.db.index.mapped_memory=1M
+    backup_slave=false
+    neostore.propertystore.db.mapped_memory=53M
+    gcr_cache_min_log_interval=60s
+    relationship_auto_indexing=false
+    relationship_grab_size=100
+    string_block_size=120
+    remote_shell_read_only=false
+    lucene_writer_cache_size=2147483647
+    grab_file_lock=true
+    node_cache_array_fraction=1.0
+    remote_logging_enabled=false
+    allow_store_upgrade=false
+    execution_guard_enabled=false
+    neo4j.ext.udc.enabled=true
+    relationship_cache_array_fraction=1.0
+2015-08-20 15:31:55.154+0000: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+2015-08-20 15:31:55.154+0000: System memory information:
+    Total Physical memory: 3.84 GB
+    Free Physical memory: 878.94 MB
+    Committed virtual memory: 612.06 MB
+    Total swap space: 5.84 GB
+    Free swap space: 540.77 MB
+2015-08-20 15:31:55.160+0000: JVM memory information:
+    Free  memory: 118.78 MB
+    Total memory: 421.50 MB
+    Max   memory: 875.00 MB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen, PS Perm Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=2.56 MB, used=2.51 MB, max=48.00 MB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=28.50 MB, used=12.06 MB, max=196.50 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=66.50 MB, used=20.84 MB, max=66.50 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=326.50 MB, used=269.83 MB, max=656.00 MB, threshold=0.00 B
+    Memory Pool: PS Perm Gen (Non-heap memory): committed=29.50 MB, used=18.46 MB, max=82.00 MB, threshold=0.00 B
+2015-08-20 15:31:55.166+0000: Operating system information:
+    Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 4
+    Process id: 5708@ACER-PC
+    Byte order: LITTLE_ENDIAN
+2015-08-20 15:31:55.168+0000: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 24.65-b04
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:11452, -Djava.library.path=E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828, -Dvce.launchers=org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher, -Dvce.launcher.class=EmailAnalysis, -Dfile.encoding=GBK]
+2015-08-20 15:31:55.168+0000: Java classpath:
+     [loader.1] file:/E:/jdk64/jre/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/pop3-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\resources.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\javamail依赖包\jaf-1_1_1\jaf-1.1.1\activation.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/configuration/org.eclipse.osgi/bundles/186/1/.cp/vm/vcelauncher.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-udc-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.core.commands_3.4.0.I20080509-2000.jar
+     [bootstrap] E:\jdk64\jre\lib\sunrsasign.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-lucene-index-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-algo-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jfr.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/lucene-core-3.5.0.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunec.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/scala-library-2.9.0-1.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/javamail%e4%be%9d%e8%b5%96%e5%8c%85/jaf-1_1_1/jaf-1.1.1/activation.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-kernel-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.jface_3.4.2.M20090107-0800.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/smtp-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/localedata.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/imap-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dnsns.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/eclipse/plugins/org.eclipse.swt.win32.win32.x86_64_3.4.1.v3452b.jar
+     [bootstrap] E:\jdk64\jre\lib\charsets.jar
+     [bootstrap] E:\jdk64\jre\classes
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-management-1.7.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/dsn-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\jsse.jar
+     [loader.0] file:/D:/github/tools/%e6%8f%90%e5%8f%96%e9%82%ae%e4%bb%b6%e9%9c%80%e8%a6%81%e7%9a%84%e7%b1%bb%e5%ba%93%e5%92%8c%e5%8c%85/Apache%20common%20email%e7%b1%bb%e5%ba%93/commons-email-1.3.3-bin/commons-email-1.3.3/commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/javax.mail-api-1.5.2.jar
+     [bootstrap] E:\jdk64\jre\lib\rt.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-shell-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-graph-matching-1.7.jar
+     [classpath + loader.0] file:/D:/github/tools/mysqlconnectorjava/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/server-api-1.7.jar
+     [bootstrap] E:\jdk64\jre\lib\jce.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-cypher-1.7.jar
+     [classpath + loader.0] file:/E:/eclipse-SDK-3.4.2-win32-x86_64/EmailAnalysis/bin/
+     [loader.1] file:/E:/jdk64/jre/lib/ext/mailapi-1.5.2.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/access-bridge-64.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/gimap-1.5.2.jar
+     [classpath] D:\github\tools\提取邮件需要的类库和包\Apache common email类库\commons-email-1.3.3-bin\commons-email-1.3.3\commons-email-1.3.3.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/neo4j-jmx-1.7.jar
+     [classpath + loader.0] file:/E:/neo4j-advanced-1.7-windows/neo4j-advanced-1.7/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [loader.1] file:/E:/jdk64/jre/lib/ext/sunmscapi.jar
+2015-08-20 15:31:55.174+0000: Library path:
+    E:\eclipse-SDK-3.4.2-win32-x86_64\.metadata\.plugins\org.eclipse.ve.java.core\.cache\.libCache\1688338828
+2015-08-20 15:31:55.189+0000: System.properties:
+    sun.boot.library.path = E:\jdk64\jre\bin
+    path.separator = ;
+    file.encoding.pkg = sun.io
+    user.country = CN
+    user.script = 
+    sun.java.launcher = SUN_STANDARD
+    sun.os.patch.level = Service Pack 1
+    user.dir = E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis
+    user.variant = 
+    sun.jnu.encoding = GBK
+    sun.awt.enableExtraMouseButtons = true
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    user.home = D:\Users\ACER
+    user.timezone = Asia/Shanghai
+    file.encoding = GBK
+    user.name = ACER
+    sun.java.command = org.eclipse.ve.internal.java.vce.launcher.remotevm.JavaBeansLauncher
+    sun.arch.data.model = 64
+    user.language = zh
+    awt.toolkit = sun.awt.windows.WToolkit
+    vce.launcher.class = EmailAnalysis
+    vce.launchers = org.eclipse.ve.internal.java.vce.launcher.remotevm.SWTLauncher,org.eclipse.ve.internal.java.vce.launcher.remotevm.JFCLauncher
+    file.separator = \
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.cpu.endian = little
+    sun.desktop = windows
+    sun.cpu.isalist = amd64
+2015-08-20 15:31:55.189+0000: --- STARTUP diagnostics END ---
+2015-08-20 15:31:55.329+0000: Extension org.neo4j.kernel.KernelExtension[kernel jmx] loaded ok
+2015-08-20 15:31:55.331+0000: Extension org.neo4j.kernel.KernelExtension[shell] loaded ok
+2015-08-20 15:31:55.498+0000: Extension org.neo4j.kernel.KernelExtension[kernel udc] loaded ok
+2015-08-20 15:31:55.503+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions START ---
+2015-08-20 15:31:55.503+0000: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1440082004899, id:489205503703704827, store version: 13561656364791302]
+2015-08-20 15:31:55.503+0000: Kernel version: Neo4j - Graph Database Kernel 1.7
+2015-08-20 15:31:55.503+0000: Neo4j component versions:
+2015-08-20 15:31:55.503+0000:   Neo4j - Graph Database Kernel 1.7
+2015-08-20 15:31:55.504+0000: --- STARTUP diagnostics for KernelDiagnostics:Versions END ---
+2015-08-20 15:31:55.507+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS START ---
+2015-08-20 15:31:55.507+0000: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2015-08-20 15:31:55.507+0000: --- STARTUP diagnostics for NEO_STORE_VERSIONS END ---
+2015-08-20 15:31:55.507+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE START ---
+2015-08-20 15:31:55.507+0000: Id usage:
+    Id usage:
+      NodeStore: used=695 high=694
+      RelationshipStore: used=692 high=691
+      RelationshipTypeStore: used=1 high=0
+      PropertyStore: used=1386 high=1385
+      PropertyIndexStore: used=3 high=2
+      StringPropertyStore: used=20 high=19
+      ArrayPropertyStore: used=1 high=0
+2015-08-20 15:31:55.509+0000: --- STARTUP diagnostics for NEO_STORE_ID_USAGE END ---
+2015-08-20 15:31:55.509+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles START ---
+2015-08-20 15:31:55.509+0000: Storage files:
+    active_tx_log: 11.00 B
+    index:
+      lucene-store.db: 40.00 B
+      lucene.log.1: 16.00 B
+      lucene.log.active: 4.00 B
+      lucene.log.v0: 16.00 B
+      lucene.log.v1: 16.00 B
+    - Total: 92.00 B
+    lock: 0.00 B
+    messages.log: 79.45 kB
+    neostore: 54.00 B
+    neostore.id: 9.00 B
+    neostore.nodestore.db: 6.11 kB
+    neostore.nodestore.db.id: 9.00 B
+    neostore.propertystore.db: 55.49 kB
+    neostore.propertystore.db.arrays: 128.00 B
+    neostore.propertystore.db.arrays.id: 9.00 B
+    neostore.propertystore.db.id: 9.00 B
+    neostore.propertystore.db.index: 27.00 B
+    neostore.propertystore.db.index.id: 9.00 B
+    neostore.propertystore.db.index.keys: 152.00 B
+    neostore.propertystore.db.index.keys.id: 9.00 B
+    neostore.propertystore.db.strings: 2.50 kB
+    neostore.propertystore.db.strings.id: 9.00 B
+    neostore.relationshipstore.db: 22.30 kB
+    neostore.relationshipstore.db.id: 9.00 B
+    neostore.relationshiptypestore.db: 5.00 B
+    neostore.relationshiptypestore.db.id: 9.00 B
+    neostore.relationshiptypestore.db.names: 76.00 B
+    neostore.relationshiptypestore.db.names.id: 9.00 B
+    nioneo_logical.log.1: 16.00 B
+    nioneo_logical.log.active: 4.00 B
+    nioneo_logical.log.v0: 16.00 B
+    nioneo_logical.log.v1: 104.00 kB
+    store_lock: 0.00 B
+    tm_tx_log.1: 0.00 B
+2015-08-20 15:31:55.518+0000: --- STARTUP diagnostics for KernelDiagnostics:StoreFiles END ---
+2015-08-20 15:31:55.521+0000: Started - database is now available
+2015-08-20 15:31:55.522+0000: GC Monitor started. 
+2015-08-20 15:31:55.912+0000: Stopping - database is now unavailable
+2015-08-20 15:31:55.916+0000: TM shutting down
+2015-08-20 15:31:55.921+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\index\lucene.log
+2015-08-20 15:31:55.930+0000: GC Monitor stopped. 
+2015-08-20 15:31:55.934+0000: Closed log E:\eclipse-SDK-3.4.2-win32-x86_64\EmailAnalysis\var\base\nioneo_logical.log
+2015-08-20 15:31:55.966+0000: NeoStore closed
+2015-08-20 15:31:55.966+0000: --- SHUTDOWN diagnostics START ---
+2015-08-20 15:31:55.966+0000: --- SHUTDOWN diagnostics END ---
